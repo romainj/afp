@@ -1,0 +1,25 @@
+uuid: 8ad81d0a-cf29-4e2d-8b49-2bd63e83128c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.large
+    - image.style.max_650x650
+    - image.style.thumbnail
+  theme:
+    - olivero
+id: test
+label: Test
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: max_650x650
+    breakpoint_id: olivero.lg
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: thumbnail
+    breakpoint_id: olivero.sm
+    multiplier: 1x
+breakpoint_group: olivero
+fallback_image_style: large

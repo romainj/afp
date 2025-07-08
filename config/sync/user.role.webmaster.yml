@@ -1,0 +1,31 @@
+uuid: 7e216f31-8200-4279-bed0-de2612ac21df
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+  module:
+    - node
+    - system
+    - toolbar
+id: webmaster
+label: Webmaster
+weight: -7
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer nodes'
+  - 'create article content'
+  - 'create page content'
+  - 'delete any article content'
+  - 'delete any page content'
+  - 'delete article revisions'
+  - 'delete page revisions'
+  - 'edit own article content'
+  - 'edit own page content'
+  - 'revert all revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

@@ -1,0 +1,36 @@
+uuid: 4d2722ac-3697-4980-917f-e34081eee674
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.carte.field_image
+    - field.field.paragraph.carte.field_texte
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.carte
+  module:
+    - image
+    - text
+id: paragraph.carte.default
+targetEntityType: paragraph
+bundle: carte
+mode: default
+content:
+  field_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_texte:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
