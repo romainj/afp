@@ -1,0 +1,18 @@
+uuid: 409ca45f-b8b2-4215-a949-0febde16e5bb
+langcode: fr
+status: true
+dependencies: {  }
+id: article
+label: Article
+channel_entity_type: node
+channel_bundle: article
+channel_langcode: und
+channel_filters: null
+channel_groups: null
+channel_sorts: {  }
+channel_searches: null
+channel_maxsize: 50
+access_by_permission: false
+authorized_roles: {  }
+authorized_users:
+  fcdc08ad-e8a1-4b80-a064-2d7262d4216d: fcdc08ad-e8a1-4b80-a064-2d7262d4216d

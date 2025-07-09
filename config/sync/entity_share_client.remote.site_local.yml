@@ -1,0 +1,13 @@
+uuid: ee738f42-568d-4432-9b5d-be12f3ec1555
+langcode: fr
+status: true
+dependencies: {  }
+id: site_local
+label: 'Site local'
+url: 'http://ddev-afp-web'
+auth:
+  pid: basic_auth
+  uuid: 26843c12-253a-4795-961c-456abca7581c
+  data:
+    credential_provider: entity_share
+    storage_key: 26843c12-253a-4795-961c-456abca7581c

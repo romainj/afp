@@ -1,0 +1,23 @@
+uuid: 5e3a9abb-f479-4441-8aed-f279a0010ac0
+langcode: fr
+status: true
+dependencies: {  }
+id: article
+label: Article
+import_maxsize: 50
+import_processor_settings:
+  default_data_processor:
+    weights:
+      is_entity_importable: -10
+      post_entity_save: 0
+      prepare_importable_entity_data: -100
+    policy: default
+    update_policy: false
+  entity_reference:
+    weights:
+      process_entity: 10
+    max_recursion_depth: -1
+  physical_file:
+    weights:
+      process_entity: 0
+    rename: false
