@@ -17,6 +17,8 @@
 # Ignore multi-site test environment.
 /web/sites/simpletest
 
+/config/production
+
 /.idea/
 /.vscode/
 /.ddev/
